@@ -23,7 +23,6 @@ module Empp
       if @@logger
         return @@logger
       else
-        puts @@loggerfolder
         if !File::exist?@@loggerfolder
           Dir::mkdir @@loggerfolder
         end
