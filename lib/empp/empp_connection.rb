@@ -1,4 +1,4 @@
-
+require 'empp/tcp_connection'
 require 'empp/msg_connect'
 require 'empp/empp_parser'
 require 'empp/empp_logger'
